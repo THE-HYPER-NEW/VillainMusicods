@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/radhamusicbot/VillainMusicods",
+    "https://github.com/aniflixmusic/VillainMusicods",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamvillain77")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/oldskoolgc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://https://t.me/SSTXMUSIC_SUPPORT")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SST_COMMUNITYY")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,13 +90,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/gcauas.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/iknaae.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/fcawaj.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/iknaae.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/iknaae.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fcawaj.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/fcawaj.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/fcawaj.jpg"
