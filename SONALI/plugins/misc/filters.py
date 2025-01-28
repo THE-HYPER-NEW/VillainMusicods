@@ -1,10 +1,10 @@
 import re
-from SACHIN_MUSIC import app
+from SONALI import app
 from config import BOT_USERNAME
-from SACHIN_MUSIC.utils.SACHIN_BAN import admin_filter
-from SACHIN_MUSIC.mongo.filtersdb import *
-from SACHIN_MUSIC.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from SACHIN_MUSIC.utils.yumidb import user_admin
+from SONALI.utils.SACHIN_BAN import admin_filter
+from SONALI.mongo.filtersdb import *
+from SONALI.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from SONALI.utils.yumidb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
