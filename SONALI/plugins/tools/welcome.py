@@ -19,7 +19,7 @@ from SONALI import app, userbot
 from SONALI.misc import SUDOERS
 from pyrogram import *
 from pyrogram.types import *
-from SONALI.utils.istkhar_ban import admin_filter
+from SONALI.utils.RAUSHAN_ban import admin_filter
 import random
 from pyrogram import Client, filters
 from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
