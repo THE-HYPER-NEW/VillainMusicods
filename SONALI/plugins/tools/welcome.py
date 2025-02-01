@@ -1,4 +1,4 @@
-from ISTKHARMUSIC import app
+from SONALI import app
 from pyrogram import Client, filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import (
@@ -15,11 +15,11 @@ from PIL import Image, ImageDraw, ImageFont
 from os import environ
 import requests
 import random
-from ISTKHARMUSIC import app, userbot
-from ISTKHARMUSIC.misc import SUDOERS
+from SONALI import app, userbot
+from SONALI.misc import SUDOERS
 from pyrogram import *
 from pyrogram.types import *
-from ISTKHARMUSIC.utils.istkhar_ban import admin_filter
+from SONALI.utils.istkhar_ban import admin_filter
 import random
 from pyrogram import Client, filters
 from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
@@ -33,9 +33,9 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from ISTKHARMUSIC.utils.istkhar_ban import admin_filter
+from SONALI.utils.istkhar_ban import admin_filter
 import os
-from ISTKHARMUSIC.misc import SUDOERS
+from SONALI.misc import SUDOERS
 from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
 from pyrogram.types import *
@@ -257,7 +257,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 **🔸 ɪᴅ »** `{user.id}`
 **▪️ ᴜ_ɴᴀᴍᴇ »** @{user.username}
 **▫️ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs »** {count}
-**▫️ ᴍᴀᴅᴇ ʙʏ »** [sʜɪᴠᴀɴsʜ-xᴅ](https://t.me/SHIVANSH474)
+**▫️ ᴍᴀᴅᴇ ʙʏ »** [ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](https://t.me/iamakki001)
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
 
 **💠─────✧❅✦❅✧─────💠**
